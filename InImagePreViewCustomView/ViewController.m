@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ExchangeLocationView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,30 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+     // custome
+    ExchangeLocationView *iv = [[ExchangeLocationView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+     [self.view addSubview:iv];
+
+    int count = 5;
+    NSMutableArray *views = [NSMutableArray new];
+    for (int i = 0; i < count; i ++) {
+        UILabel *label = [[UILabel alloc] init];
+        label.backgroundColor = [UIColor orangeColor];
+        label.font = [UIFont boldSystemFontOfSize:50];
+        label.text = [NSString stringWithFormat:@"%d",i];
+        label.textAlignment = NSTextAlignmentCenter;
+        label.textColor = [UIColor whiteColor];
+        [views addObject:label];
+    }
+    
+    [iv loadViewsWithArray:views andRects:[ExchangeLocationView rectsFlowLayoutWithCount:count]];
+   
+    // custome
+    
+    // collection
+    
+    // collection
+    
 }
 
 

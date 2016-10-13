@@ -13,6 +13,7 @@
 		9D9DDA5A1DAF89BF00F969D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D9DDA581DAF89BF00F969D5 /* Main.storyboard */; };
 		9D9DDA5C1DAF89BF00F969D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D9DDA5B1DAF89BF00F969D5 /* Assets.xcassets */; };
 		9D9DDA5F1DAF89BF00F969D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D9DDA5D1DAF89BF00F969D5 /* LaunchScreen.storyboard */; };
+		9D9DDA681DAF89E800F969D5 /* ExchangeLocationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9DDA671DAF89E800F969D5 /* ExchangeLocationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9D9DDA5B1DAF89BF00F969D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D9DDA5E1DAF89BF00F969D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D9DDA601DAF89BF00F969D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D9DDA661DAF89E800F969D5 /* ExchangeLocationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeLocationView.h; sourceTree = "<group>"; };
+		9D9DDA671DAF89E800F969D5 /* ExchangeLocationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeLocationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		9D9DDA4E1DAF89BF00F969D5 /* InImagePreViewCustomView */ = {
 			isa = PBXGroup;
 			children = (
+				9D9DDA661DAF89E800F969D5 /* ExchangeLocationView.h */,
+				9D9DDA671DAF89E800F969D5 /* ExchangeLocationView.m */,
 				9D9DDA521DAF89BF00F969D5 /* AppDelegate.h */,
 				9D9DDA531DAF89BF00F969D5 /* AppDelegate.m */,
 				9D9DDA551DAF89BF00F969D5 /* ViewController.h */,
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D9DDA681DAF89E800F969D5 /* ExchangeLocationView.m in Sources */,
 				9D9DDA571DAF89BF00F969D5 /* ViewController.m in Sources */,
 				9D9DDA541DAF89BF00F969D5 /* AppDelegate.m in Sources */,
 				9D9DDA511DAF89BF00F969D5 /* main.m in Sources */,
